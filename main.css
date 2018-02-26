@@ -27,10 +27,14 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+    body {
+        margin: 0 auto;
+        padding: 0;
+    }
     .result,
     .fingerprint-hash,
     .success,
     .failed {
-        font-size: 30px;
+        font-size: 22px;
     }
 }

@@ -21,7 +21,7 @@
         }
         const message = fpLS === value ?
             '<span class="success">ID matches!</span>' :
-            '<span class="failed">ID does not match.</span><p>New: ' + value + '.</p><p>Old: ' + fpLS + '</p>';
+            '<span class="failed">ID does not match.</span><p>New ID:</p><p>' + value + '</p><p>Old ID:</p><p>' + fpLS + '</p>';
         document.getElementById('result').innerHTML = message;
     }
 })();
