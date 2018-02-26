@@ -25,3 +25,12 @@ h2 {
     color: #00b400;
     padding: 7px;
 }
+
+@media screen and (max-width: 767px) {
+    .result,
+    .fingerprint-hash,
+    .success,
+    .failed {
+        font-size: 30px;
+    }
+}
