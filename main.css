@@ -1,0 +1,27 @@
+body {
+    margin: 0 auto;
+    padding: 20px 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.fingerprint-hash {
+    color: #489cff;
+}
+
+.result {
+    font-size: 18px;
+    text-align: center;
+}
+
+.failed {
+    color: #b80000;
+}
+
+.success {
+    border: 2px solid #00b400;
+    color: #00b400;
+    padding: 7px;
+}
